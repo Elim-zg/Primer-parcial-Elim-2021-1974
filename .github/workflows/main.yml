@@ -17,7 +17,6 @@ jobs:
         run: npm install --global surge
 
       - name: Deploy to Surge
-        run: |
-          https://primer-parcial-elimpichardo2021-1974.surge.sh
+        run: surge ./path/to/your/site primer-parcial-elimpichardo2021-1974.surge.sh
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
