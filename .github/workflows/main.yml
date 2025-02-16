@@ -18,6 +18,6 @@ jobs:
 
       - name: Deploy to Surge
         run: 
-          surge --project ./ --domain <primer-parcial-elimpichardo2021-1974>.surge.sh
+          surge --project ./ --domain primer-parcial-elimpichardo2021-1974.surge.sh
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
